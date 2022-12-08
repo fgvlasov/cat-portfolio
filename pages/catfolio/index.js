@@ -8,7 +8,7 @@ const Portfolio = () => {
         <Layout>
             <Head>
                 <title>
-                    Портфолио || keystroke Creative Agency Bootstrap5 Template
+                    Портфолио || {process.env.TITLE}
                 </title>
             </Head>
 

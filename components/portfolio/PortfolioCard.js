@@ -30,7 +30,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                                     width={400}
                                     height={380}
                                     src={data.image_list}
-                                    alt={`${data.title} portfolio image`}
+                                    alt={`${data.title} - изображение`}
                                 />
                             </a>
                         </Link>

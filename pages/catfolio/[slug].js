@@ -3,17 +3,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {useEffect, useState} from 'react';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
-import VideoPlayer from '../../components/common/VideoPlayer';
 import Layout from '../../components/layouts/Layout';
 import PortfolioData from '../../data/Portfolio.json';
-import {slugify} from '../../helpers/utilities';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 export async function getStaticPaths() {
     return {
-        paths: PortfolioData?.map(({title}) => ({
+        paths: PortfolioData?.map(({link}) => ({
             params: {
-                slug: slugify(title),
+                slug: link,
             },
         })),
         fallback: false,
@@ -21,7 +19,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({params}) {
-    const portfolio = PortfolioData.find(item => slugify(item.title) === params.slug);
+    const portfolio = PortfolioData.find(item => item.link === params.slug);
 
     return {
         props: {
