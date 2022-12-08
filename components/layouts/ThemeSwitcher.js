@@ -46,7 +46,7 @@ const ThemeSwitcher = () => {
                             alt="Sun images"
                         />
                         <span className="title" title="Light Mode">
-                          Light
+                          Светлый кот
                         </span>
                     </button>
                 </li>
@@ -64,7 +64,7 @@ const ThemeSwitcher = () => {
                             alt="Vector Images"
                         />
                         <span className="title" title="Dark Mode">
-                          Dark
+                          Темный кот
                         </span>
                     </button>
                 </li>

@@ -61,11 +61,11 @@ const ServiceCardOne = (
                             <p>{data.description}</p>
                             <Link
                                 className="axil-button"
-                                data-hover="Learn More"
+                                data-hover="Подробнее"
                                 href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
                             >
                                 <a className="axil-button">
-                                    Learn More
+                                    Подробнее
                                 </a>
                             </Link>
                         </div>

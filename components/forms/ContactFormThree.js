@@ -39,25 +39,25 @@ const ContactFormThree = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <Input name="name" label="Name" isClear={isMessageSent} />
+      <Input name="name" label="Имя" isClear={isMessageSent} />
       <Input name="email" label="Email" type="email" isClear={isMessageSent} />
-      <Input name="phone" label="Phone" isClear={isMessageSent} />
+      <Input name="phone" label="Телефон" isClear={isMessageSent} />
       <Input
         name="message"
-        label="Your message"
+        label="Ваше сообщение"
         type="textarea"
         isClear={isMessageSent}
       />
       <div className="form-group">
-        <input type="submit" value="Send message" />
+        <input type="submit" value="Отправить сообщение" />
         <p className="form-messege"></p>
       </div>
       {showAlert && (
         <Alert
           message={
             isMessageSent
-              ? "Your message was sent successfully"
-              : "Something went wrong"
+              ? "Ваше сообщение было успешно отправлено"
+              : "Что-то пошло нет, котик потерялся"
           }
           type={isMessageSent ? "success" : "danger"}
         />

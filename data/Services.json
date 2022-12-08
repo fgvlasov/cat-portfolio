@@ -8,12 +8,12 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Дизайн",
+    "description": "Мы разрабатываем профессионально выглядящие, но простые веб-сайты. Наши проекты удобны для поисковых систем и пользователей.",
     "category": "Default",
     "slug": "design",
     "process": {
-      "title": "Our design process",
+      "title": "Процесс изготовления",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
       "strategies": [
         {
@@ -60,7 +60,7 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Development",
+    "title": "Разработка",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "development",
@@ -112,7 +112,7 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Online marketing",
+    "title": "Онлайн маркетинг",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "online-marketing",
@@ -164,7 +164,7 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-04",
-    "title": "Business",
+    "title": "Бизнес",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "business",
@@ -216,7 +216,7 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-06",
-    "title": "Technology",
+    "title": "Технологии",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "technology",
@@ -268,7 +268,7 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Content strategy",
+    "title": "Контент",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "content-strategy",
@@ -320,7 +320,7 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Logo & branding",
+    "title": "Лого и брендинг",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Design",
     "slug": "logo-and-branding",
@@ -372,7 +372,7 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Website design",
+    "title": "Дизайн вебсайтов",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Design",
     "slug": "website-design",
