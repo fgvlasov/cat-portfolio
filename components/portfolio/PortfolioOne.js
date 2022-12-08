@@ -37,8 +37,8 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                 <div className="row align-items-end">
                     <div className="col-lg-5 col-md-12">
                         <SectionTitle
-                            title="Some of our finest work."
-                            subtitle="our projects"
+                            title="Некоторые из лучших котов"
+                            subtitle="наши проекты"
                             titleClass="mb-0"
                             color="extra07-color"
                             alignment="left"

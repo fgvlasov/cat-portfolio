@@ -28,7 +28,7 @@ const BannerOne = () => {
 									даже лоток почистим и обновим лежачок.
   
                                 </p>
-                                <Link href="/portfolio">
+                                <Link href="/catfolio">
                                     <a className="axil-button btn-large btn-transparent"
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"

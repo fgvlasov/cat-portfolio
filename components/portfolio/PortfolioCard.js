@@ -24,12 +24,12 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
             <div className="inner">
                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                     <div className="thumb">
-                        <Link href={`/portfolio/${slugify(data.title)}`}>
+                        <Link href={`/catfolio/${slugify(data.link)}`}>
                             <a>
                                 <Image
                                     width={400}
                                     height={380}
-                                    src={data.image}
+                                    src={data.image_list}
                                     alt={`${data.title} portfolio image`}
                                 />
                             </a>
@@ -40,13 +40,13 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                 <div className="port-overlay-info">
                     <div className="hover-action">
                         <h4 className="title">
-                            <Link href={`/portfolio/${slugify(data.title)}`}>
+                            <Link href={`/catfolio/${slugify(data.title)}`}>
                                 <a>{data.title}</a>
                             </Link>
                         </h4>
                         <span className="category">
               {data.categories?.map((category, index) => {
-                  return category;
+                  return (index? ', ': '') + category;//$index `${category}, `;
               })}
             </span>
                     </div>

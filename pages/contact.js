@@ -6,11 +6,10 @@ import Layout from "../components/layouts/Layout";
 import Image from "next/image";
 
 const Contact = () => {
-	const message = process.env.SITE_TITLE;
     return (
         <Layout>
             <Head>
-                <title>Контакты || {message}</title>
+                <title>Контакты || {process.env.TITLE}</title>
             </Head>
 
             <Breadcrumb title="Котакты" current="Котакты"/>
@@ -45,9 +44,7 @@ const Contact = () => {
                                                     18:00 по Москве
                                                 </p>
                                                 <p>
-                                                    <a className="axil-link" href="tel:+79114015751">
-                                                        +7 911 401 57 51
-                                                    </a>
+                                                    <a className="axil-link" href={`tel:${process.env.PHONE}`}>{process.env.PHONE_VISUAL}</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -70,9 +67,9 @@ const Contact = () => {
                                                 <p>
                                                     <a
                                                         className="axil-link"
-                                                        href="mailto:contact@ptzsite.ru"
+                                                        href={`mailto:${process.env.EMAIL}`}
                                                     >
-                                                        contact@ptzsite.ru
+                                                        {process.env.EMAIL}
                                                     </a>
                                                 </p>
                                             </div>

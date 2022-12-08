@@ -24,7 +24,7 @@ const CallToActionOne = () => {
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>
-                                      <a href="tel:+79114015751">+7 911 401 5751</a>
+                                      <a href={`tel:${process.env.PHONE}`}>{process.env.PHONE_VISUAL}</a>
                                     </span>
                                 </div>
                             </div>

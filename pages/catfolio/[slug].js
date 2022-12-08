@@ -194,7 +194,7 @@ const PortfolioDetails = ({portfolio}) => {
                                             width={930}
                                             height={521}
                                             className="w-100"
-                                            src={`/images/portfolio/930/${portfolio.image}`}
+                                            src={portfolio.image}
                                             alt="POrtfolio Images"
                                         />
 

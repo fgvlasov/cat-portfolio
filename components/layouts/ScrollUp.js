@@ -28,7 +28,7 @@ const ScrollUp = () => {
       onClick={scrollUp}
       className={visible ? "visible" : ""}
     >
-      <span className="text">top</span>
+      <span className="text">прыжок</span>
     </a>
   );
 };

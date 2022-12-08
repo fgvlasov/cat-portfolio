@@ -17,15 +17,13 @@ const ErrorPage = () => {
                             <div className="col-lg-12">
                                 <div className="axil-error text-center">
                                     <div className="inner">
-                                        <h1 className="title mb--20">Page not Found</h1>
+                                        <h1 className="title mb--20">Кот потерялся</h1>
                                         <p className="subtitle-2 mb--30">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                            Enim, recusandae <br/> consectetur nesciunt magnam
-                                            facilis aliquid amet earum alias?
+                                            Нужно срочно идти искать и приманивать вкусными котлетками. 
                                         </p>
-                                        <Link href="/home-01">
+                                        <Link href="/">
                                             <a className="axil-button btn-large btn-transparent">
-                                                <span className="button-text">Go Back</span>
+                                                <span className="button-text">На главную</span>
                                                 <span className="button-icon"/>
                                             </a>
                                         </Link>

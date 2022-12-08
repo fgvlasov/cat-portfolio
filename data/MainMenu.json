@@ -33,6 +33,12 @@
     "url": "/about",
     "hasChildren": false
   },
+  {
+    "id": 4,
+    "title": "Котфолио",
+    "url": "/catfolio",
+    "hasChildren": false
+  },
 
   {
     "id": 6,
