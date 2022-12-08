@@ -47,8 +47,8 @@ const PortfolioDetails = ({portfolio}) => {
 
             <main className="page-wrapper">
                 <Breadcrumb
-                    title="Portfolio Details"
-                    current="Portfolio Details"
+                    title="Работа из портфолио"
+                    current="Работа из портфолио"
                 />
 
                 <div className="axil-portfolio-details ax-section-gap bg-color-white">
@@ -73,9 +73,9 @@ const PortfolioDetails = ({portfolio}) => {
                                                 __html: portfolio.description,
                                             }}
                                         />
-                                        <Link href="#">
+                                        <Link href={portfolio.url}>
                                             <a className="axil-button btn-large btn-transparent">
-                                                <span className="button-text">Launch The Site </span>
+                                                <span className="button-text">Перейти на сайт </span>
                                                 <span className="button-icon"/>
                                             </a>
                                         </Link>
@@ -194,19 +194,10 @@ const PortfolioDetails = ({portfolio}) => {
                                             width={930}
                                             height={521}
                                             className="w-100"
-                                            src="/images/portfolio/portfolio-big-image-01.jpg"
+                                            src={`/images/portfolio/930/${portfolio.image}`}
                                             alt="POrtfolio Images"
                                         />
-                                        <div className="video-button position-to-top">
-                                            <a
-                                                className="play__btn video-btn"
-                                                href="https://www.youtube.com/watch?v=Pj_geat9hvI"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal"
-                                            >
-                                                <span className="triangle"/>
-                                            </a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -216,9 +207,9 @@ const PortfolioDetails = ({portfolio}) => {
 
                 <CallToActionOne/>
 
-                {isWindow && (
+                {/*isWindow && (
                     <VideoPlayer url={portfolio.videoUrl}/>
-                )}
+				)*/}
             </main>
         </Layout>
     );

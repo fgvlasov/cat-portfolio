@@ -8,14 +8,14 @@ const Portfolio = () => {
         <Layout>
             <Head>
                 <title>
-                    Portfolio || keystroke Creative Agency Bootstrap5 Template
+                    Портфолио || keystroke Creative Agency Bootstrap5 Template
                 </title>
             </Head>
 
             <main className="page-wrapper">
                 <BannerSeven
-                    title="Our projects"
-                    subtitle="A quick view of industry specific problems solved with design by the awesome team at Keystroke."
+                    title="Портфолио"
+                    subtitle="От двух дизайнеров получаются разноцветные котосайты. Выбирай питомца."
                 />
 
                 <PortfolioOne bgColor="bg-transparent"/>

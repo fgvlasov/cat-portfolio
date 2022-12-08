@@ -8,23 +8,23 @@ const CallToActionOne = () => {
                     <div className="col-lg-12">
                         <div className="axil-call-to-action">
                             <SectionTitle
-                                title="Need a successful project?"
-                                subtitle="Let's work together"
+                                title="Нужен работающий сайт?"
+                                subtitle="поработаем вместе"
                                 color="extra04-color"
                                 alignment="center"
                             />
                             <div className="text-center">
                                 <a className="axil-button btn-large btn-transparent" href="#">
-                                    <span className="button-text">Estimate Project</span>
+                                    <span className="button-text">Заказать проект</span>
                                     <span className="button-icon"/>
                                 </a>
                                 <div className="callto-action">
                                     <span className="text">
-                                      Or call us now
+                                      Или позвоните нам
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>
-                                      <a href="tel:(123) 456 7890">(123) 456 7890</a>
+                                      <a href="tel:+79114015751">+7 911 401 5751</a>
                                     </span>
                                 </div>
                             </div>
