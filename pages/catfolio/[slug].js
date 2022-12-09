@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import {useEffect, useState} from 'react';
+//import {useEffect, useState} from 'react';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import PortfolioData from '../../data/Portfolio.json';
@@ -29,11 +29,11 @@ export async function getStaticProps({params}) {
 }
 
 const PortfolioDetails = ({portfolio}) => {
-    const [isWindow, setIsWindow] = useState(false);
+    /*const [isWindow, setIsWindow] = useState(false);
 
     useEffect(() => {
         setIsWindow(true);
-    }, []);
+    }, []);*/
 
     return (
         <Layout>

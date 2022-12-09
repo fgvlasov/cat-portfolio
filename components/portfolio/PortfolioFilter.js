@@ -24,16 +24,16 @@ const PortfolioFilter = (
     return (
         <div className="messonry-button text-start text-lg-end">
             <button onClick={() => setActiveGenre(0)} className={activeGenre === 0 ? "is-checked" : ""}>
-                <span className="filter-text">All</span>
+                <span className="filter-text">Все</span>
             </button>
             <button onClick={() => setActiveGenre(1)} className={activeGenre === 1 ? "is-checked" : ""}>
-                <span className="filter-text">Branding</span>
+                <span className="filter-text">Сайты</span>
             </button>
             <button onClick={() => setActiveGenre(2)} className={activeGenre === 2 ? "is-checked" : ""}>
-                <span className="filter-text">Web</span>
+                <span className="filter-text">Логотипы</span>
             </button>
             <button onClick={() => setActiveGenre(3)} className={activeGenre === 3 ? "is-checked" : ""}>
-                <span className="filter-text">Graphic</span>
+                <span className="filter-text">Графика</span>
             </button>
         </div>
     );
