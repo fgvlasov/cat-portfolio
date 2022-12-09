@@ -33,20 +33,21 @@ const HomeOne = ({posts}) => {
                 <AboutOne/>
 
                 <PortfolioOne/>
-
-                <CounterOne/>
-
-                <TestimonialOne/>
+                {/*
+				<CounterOne/>
+				
+				<TestimonialOne/>
 
                 <TeamOne/>
 
                 <PricingOne/>
 
-                <BrandOne/>
+				<BrandOne/>
 
                 <BlogOne posts={posts.slice(0, 2)}/>
 
-                <CallToActionOne/>
+				<CallToActionOne/>
+				*/}
             </main>
         </Layout>
     );

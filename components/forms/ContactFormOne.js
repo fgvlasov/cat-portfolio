@@ -39,13 +39,13 @@ const ContactFormOne = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <Input name="name" label="Name" isClear={isMessageSent} />
+      <Input name="name" label="Имя" isClear={isMessageSent} />
       <Input name="email" label="Email" type="email" isClear={isMessageSent} />
-      <Input name="company" label="Company" isClear={isMessageSent} />
-      <Input name="phone" label="Phone" isClear={isMessageSent} />
+      <Input name="company" label="Компания" isClear={isMessageSent} />
+      <Input name="phone" label="Телефон" isClear={isMessageSent} />
       <div className="form-group">
         <button className="axil-button btn-large btn-transparent w-100">
-          <span className="button-text">Get Pricing Now</span>
+          <span className="button-text">Получите цену сейчас</span>
           <span className="button-icon" />
         </button>
       </div>
@@ -53,8 +53,8 @@ const ContactFormOne = () => {
         <Alert
           message={
             isMessageSent
-              ? "Your message was sent successfully"
-              : "Something went wrong"
+              ? "Ваше сообщение было успешно отправлено"
+              : "Что-то пошло не так"
           }
           type={isMessageSent ? "success" : "danger"}
         />

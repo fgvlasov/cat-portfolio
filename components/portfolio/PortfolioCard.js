@@ -23,12 +23,13 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
         >
             <div className="inner">
                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
-                    <div className="thumb">
+                    <div className="thumb shadow-sm">
                         <Link href={`/catfolio/${slugify(data.link)}`}>
                             <a>
                                 <Image
                                     width={400}
                                     height={380}
+									
                                     src={data.image_list}
                                     alt={`${data.title} - изображение`}
                                 />

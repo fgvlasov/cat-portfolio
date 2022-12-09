@@ -16,7 +16,7 @@
     "id": 2,
     "title": "Услуги",
     "url": "#",
-    "hasChildren": true,
+    "hasChildren": false,
     "clildrens": [
       { "id": 1, "title": "Services", "url": "/services" },
       { "id": 2, "title": "Services Two", "url": "/service-two" },

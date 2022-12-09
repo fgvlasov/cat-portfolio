@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const Breadcrumb = ({
   title = "Blog",
-  root = "Home",
-  rootUrl = "/home-01",
-  current = "Blog",
+  root = "Главная",
+  rootUrl = "/",
+  current = "Статьи",
 }) => {
   return (
     <div className="axil-breadcrumb-area breadcrumb-style-default pt--170 pb--70 theme-gradient">

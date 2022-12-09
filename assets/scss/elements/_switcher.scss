@@ -1,6 +1,7 @@
 .my_switcher {
   position: fixed;
-  left: 30px;
+  //left: 30px;
+  left:-20px;
   top: 50%;
   transform: translateY(-50%) rotate(90deg);
   z-index: 99;
@@ -55,3 +56,5 @@
     }
   }
 }
+
+

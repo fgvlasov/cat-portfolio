@@ -100,7 +100,7 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                    <Link href="/home-01">
+                                    <Link href="/">
                                         <a>
                                             <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
                                         </a>
@@ -130,20 +130,6 @@ const Header = ({headerSetting = {}}) => {
                                     )}
 
                                     <div className="axil-header-extra d-flex align-items-center">
-                                        {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
-                                            <div className="ax-search-area ml--40 ml_sm--10">
-                                                <button
-                                                    className="p-0 border-0 search-trigger"
-                                                    onClick={toggleSearch}
-                                                >
-                                                    <i className="fas fa-search"></i>
-                                                </button>
-                                            </div>
-                                        )}
-
-                                        {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
-<></>
-                                        )}
 
                                         {headerSettings.style === "three" && (
                                             <div className="d-none d-md-block">

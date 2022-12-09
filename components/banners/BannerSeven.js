@@ -5,7 +5,7 @@ const BannerSeven = (
     {
         title = "One of the fastest growing agency",
         subtitle = "We design and develop web and mobile applications for our clients worldwide.",
-        thumbnailImageOne = "/images/slider/white-shape.png",
+        thumbnailImageOne = "/images/slider/cat3.jpg",
         thumbnailImageTwo = "/images/slider/banner-about.svg",
     }
 ) => {
@@ -31,7 +31,7 @@ const BannerSeven = (
                                         alt="Slider images"
                                     />
                                 </Tilt>
-                                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2">
+                                {/*<Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2">
                                     <Image
                                         width={519}
                                         height={395}
@@ -39,7 +39,7 @@ const BannerSeven = (
                                         src={thumbnailImageTwo}
                                         alt="Slider images"
                                     />
-                                </Tilt>
+	</Tilt>*/}
                             </div>
                             <div className="shape-group">
                                 <div className="shape shape-1">
