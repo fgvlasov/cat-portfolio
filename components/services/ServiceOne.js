@@ -24,7 +24,7 @@ const ServiceOne = () => {
     }, []);
 
     return (
-        <div className="axil-service-area ax-section-gap bg-color-white">
+        <div className="axil-service-area ax-section-gap bg-color-white" id="services">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

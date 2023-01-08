@@ -18,33 +18,33 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "title": "Исследуем",
+          "subtitle": "первый шаг процессов",
+          "description": "изучаем другие сайты из вашей сферы, ищем модные тренды в дизайне и юзабилити",
           "highlightColor": "extra04-color",
           "image": "/images/process/process-01.jpg"
         },
         {
           "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "title": "Прототип",
+          "subtitle": "вторым шагом делаем макет в Figma для расстановки блоков",
+          "description": "На этом шаге становится понятно какое количество контента у вас, сколько пунктов меню, можно менять местами ифнормацию, выбирать шрифты, подбирать картинки",
           "highlightColor": "extra05-color",
           "image": "/images/process/process-02.jpg"
         },
         {
           "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "title": "Тестирование",
+          "subtitle": "третий шаг для тестирования макеты",
+          "description": "Изучаем как ведет себя макет и дизайн на разных разрешениях, разных экранах, вы показываете макет членам команды",
           "highlightColor": "extra06-color",
           "image": "/images/process/process-03.jpg"
         },
         {
           "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "title": "Финальная отрисовка",
+          "subtitle": "финальный этап дизайна",
+          "description": "Рисуем финальный макет, по которому начнут работать разработчики, верстать в код, создавать программный код или прикручивать к существующей CMS",
           "highlightColor": "extra07-color",
           "image": "/images/process/process-04.jpg"
         }
@@ -61,7 +61,7 @@
     },
     "iconColorClass": "gradient-color-02",
     "title": "Разработка",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "",
     "category": "Default",
     "slug": "development",
     "process": {

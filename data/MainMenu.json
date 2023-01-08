@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Главный",
+    "title": "Главная",
     "url": "/",
     "hasChildren": false,
     "clildrens": [
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "Услуги",
-    "url": "#",
+    "url": "/#services",
     "hasChildren": false,
     "clildrens": [
       { "id": 1, "title": "Services", "url": "/services" },
