@@ -165,12 +165,12 @@
     },
     "iconColorClass": "gradient-color-04",
     "title": "Бизнес",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "Мы разрабатываем профессионально выглядящие, но простые веб-сайты. Наши проекты удобны для поисковых систем и пользователей.",
     "category": "Default",
     "slug": "business",
     "process": {
       "title": "Our business process",
-      "description": "Our comprehensive business strategy ensures quality and perfection for our clients.",
+      "description": "Наша выработанная бизнес-стратегия обеспечивает качество и совершенство для наших клиентов..",
       "strategies": [
         {
           "id": 1,
