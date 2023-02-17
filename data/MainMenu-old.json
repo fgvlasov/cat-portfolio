@@ -1,0 +1,50 @@
+[
+	{
+	  "id": 1,
+	  "title": "Главная",
+	  "url": "/",
+	  "hasChildren": false,
+	  "clildrens": [
+		{ "id": 1, "title": "Digital Agency", "url": "/home-01" },
+		{ "id": 2, "title": "Creative Agency", "url": "/home-02" },
+		{ "id": 3, "title": "Personal Portfolio", "url": "/home-03" },
+		{ "id": 4, "title": "Home Startup", "url": "/home-04" },
+		{ "id": 5, "title": "Corporate Agency", "url": "/home-05" }
+	  ]
+	},
+	{
+	  "id": 2,
+	  "title": "Услуги",
+	  "url": "/#services",
+	  "hasChildren": false,
+	  "clildrens": [
+		{ "id": 1, "title": "Services", "url": "/services" },
+		{ "id": 2, "title": "Services Two", "url": "/service-two" },
+		{
+		  "id": 3,
+		  "title": "Services Details",
+		  "url": "/services/default/design"
+		}
+	  ]
+	},
+	{
+	  "id": 3,
+	  "title": "О котах",
+	  "url": "/about",
+	  "hasChildren": false
+	},
+	{
+	  "id": 4,
+	  "title": "Котфолио",
+	  "url": "/catfolio",
+	  "hasChildren": false
+	},
+  
+	{
+	  "id": 6,
+	  "title": "Котакты",
+	  "url": "/contact",
+	  "hasChildren": false
+	}
+  ]
+  

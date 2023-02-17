@@ -28,12 +28,6 @@
     ]
   },
   {
-    "id": 3,
-    "title": "О котах",
-    "url": "/about",
-    "hasChildren": false
-  },
-  {
     "id": 4,
     "title": "Котфолио",
     "url": "/catfolio",
