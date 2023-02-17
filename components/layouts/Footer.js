@@ -9,7 +9,7 @@ const Footer = ({footerSetting = {}}) => {
     useEffect(() => {
         if (footerSetting === "") {
             const setting = {
-                showCopyrightOnly: false,
+                showCopyrightOnly: true,
             };
             setFooterSettings(setting);
         } else {
@@ -93,10 +93,10 @@ const Footer = ({footerSetting = {}}) => {
                         <div className="row row--0 ptb--20 axil-basic-thine-line">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="inner text-center text-md-start">
-                                    <p>© 2022. Все права на людей принадлежат котам!</p>
+                                    <p>© 2023. Все права на людей принадлежат котам!</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                            {/*<div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="quick-contact">
                                     <ul
                                         className={`link-hover d-flex justify-content-center justify-content-md-end liststyle ${
@@ -114,6 +114,7 @@ const Footer = ({footerSetting = {}}) => {
                                     </ul>
                                 </div>
                             </div>
+									*/}
                         </div>
                     </div>
                 </div>
