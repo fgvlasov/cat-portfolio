@@ -44,7 +44,7 @@ const Contact = () => {
                                                     18:00 по Москве
                                                 </p>
                                                 <p>
-                                                    <a className="axil-link" href="tel:+79114015751">+ 7 911 401 57 51{/*`tel:${process.env.PHONE}`}>{process.env.PHONE_VISUAL*/}</a>
+                                                    <a className="axil-link" href={`tel:${process.env.PHONE}`}>{process.env.PHONE_VISUAL}</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -67,9 +67,9 @@ const Contact = () => {
                                                 <p>
                                                     <a
                                                         className="axil-link"
-                                                        href="mailto:fgvlasov@gmail.com">Contact email{/*`mailto:${process.env.EMAIL}`}
+                                                        href={`mailto:${process.env.EMAIL}`}
                                                     >
-	{process.env.EMAIL*/}
+	{process.env.EMAIL}
                                                     </a>
                                                 </p>
                                             </div>
