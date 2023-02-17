@@ -37,7 +37,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                 <div className="row align-items-end">
                     <div className="col-lg-5 col-md-12">
                         <SectionTitle
-                            title="Некоторые из лучших котов"
+                            title="Некоторые из лучших домиков"
                             subtitle="наши проекты"
                             titleClass="mb-0"
                             color="extra07-color"
@@ -74,7 +74,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                         <div className="view-all-portfolio-button mt--60 text-center">
                             <Link href="/catfolio">
                                 <a className="axil-button btn-large btn-transparent btn-xxl">
-                                    <span className="button-text">Смотреть другие проекты</span>
+                                    <span className="button-text">Смотреть другие домики</span>
                                     <span className="button-icon"/>
                                 </a>
                             </Link>

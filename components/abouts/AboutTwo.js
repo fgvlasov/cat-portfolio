@@ -14,7 +14,7 @@ const AboutTwo = () => {
                   <span className="text">Или позвоните нам</span>
                   <span>
                     <i className="fal fa-phone-alt"></i>{" "}
-                    <a href="#">(123) 456 7890</a>
+                    <a href={`tel:${process.env.PHONE}`}>{process.env.PHONE_VISUAL}</a>
                   </span>
                 </div>
 
@@ -34,11 +34,10 @@ const AboutTwo = () => {
               <div className="section-title text-start">
                 <span className="sub-title extra08-color">About us</span>
                 <h2 className="title">
-                  Why branding <br /> matters?
+                  Почему брендинг <br /> имеет значение?
                 </h2>
                 <p className="subtitle-2">
-                  Ut condimentum enim nec diam convallis mollis. Sed felis quam,
-                  semper dapibus purus sed, rhoncus ullamcorper lacus.
+				Успех брендинга обеспечивают качество товара, точность и понятность образа для целевой аудитории бренда сила рекламных воздействий и др. маркетинговых мероприятий, репутация компании-производителя. 
                 </p>
               </div>
 
@@ -57,7 +56,7 @@ const AboutTwo = () => {
                         aria-controls="collapseOne"
                       >
                         <i className="fal fa-compress-wide"></i>
-                        <span>Strategy</span>
+                        <span>Стратегия</span>
                       </button>
                     </h5>
                   </div>
@@ -69,8 +68,7 @@ const AboutTwo = () => {
                     data-bs-parent="#accordion"
                   >
                     <div className="card-body">
-                      Aenean hendrerit laoreet vehicula. Nullam convallis augue
-                      at enim gravida pellentesque.
+					Эффективная стратегия бренда подчеркивает уникальную идентичность вашего бренда и необходима для долгосрочного успеха.
                     </div>
                   </div>
                 </div>
@@ -86,7 +84,7 @@ const AboutTwo = () => {
                         aria-controls="collapseTwo"
                       >
                         <i className="fal fa-code"></i>
-                        <span>Design</span>
+                        <span>Дизайн</span>
                       </button>
                     </h5>
                   </div>
@@ -97,8 +95,7 @@ const AboutTwo = () => {
                     data-bs-parent="#accordion"
                   >
                     <div className="card-body">
-                      Aenean hendrerit laoreet vehicula. Nullam convallis augue
-                      at enim gravida pellentesque.
+					Бренд-дизайн учитывает целый комплекс знаний о потребителе и его потребностях, реализует его в дизайне бренда, символике, цветовой гамме, фирменных шрифтах компании и тем самым мотивирует неосознанный потребительский выбор, является орудием завоевания лояльности покупателей.
                     </div>
                   </div>
                 </div>
@@ -114,7 +111,7 @@ const AboutTwo = () => {
                         aria-controls="collapseThree"
                       >
                         <i className="fal fa-globe"></i>
-                        <span>Development</span>
+                        <span>Разработка</span>
                       </button>
                     </h5>
                   </div>
@@ -125,8 +122,7 @@ const AboutTwo = () => {
                     data-bs-parent="#accordion"
                   >
                     <div className="card-body">
-                      Aenean hendrerit laoreet vehicula. Nullam convallis augue
-                      at enim gravida pellentesque.
+					Разработка бренда или brandbuilding – это целый комплекс мероприятий, включающий разработку стратегии позиционирования, нейминг, дизайн логотипа, фирменного стиля и упаковки, оформление мест продаж и т. п.
                     </div>
                   </div>
                 </div>

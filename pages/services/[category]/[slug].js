@@ -3,6 +3,7 @@ import AboutTwo from '../../../components/abouts/AboutTwo';
 import BannerSix from '../../../components/banners/BannerSix';
 import CallToActionOne from '../../../components/call-to-actions/CallToActionOne';
 import Layout from '../../../components/layouts/Layout';
+import PortfolioOne from '../../../components/portfolio/PortfolioOne';
 import PortfolioTwo from '../../../components/portfolio/PortfolioTwo';
 import WorkingProcess from '../../../components/services/WorkingProcess';
 import ServiceData from '../../../data/Services.json';
@@ -36,7 +37,7 @@ const ServiceDetails = ({service}) => {
         <Layout>
             <Head>
                 <title>
-                    {service.title} || keystroke Creative Agency Bootstrap5 Template
+                    {service.title} || {process.env.TITLE}
                 </title>
             </Head>
 
@@ -57,7 +58,7 @@ const ServiceDetails = ({service}) => {
 
                 <WorkingProcess process={service.process}/>
 
-                <PortfolioTwo/>
+                <PortfolioOne/>
 
                 <CallToActionOne/>
             </div>

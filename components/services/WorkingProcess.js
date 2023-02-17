@@ -10,7 +10,7 @@ const WorkingProcess = ({process}) => {
                     <div className="col-lg-12">
                         <SectionTitle
                             title={process.title}
-                            subtitle="process"
+                            subtitle="процесс"
                             description={process.description}
                             color="extra08-color"
                             alignment="center"
