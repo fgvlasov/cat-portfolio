@@ -2,16 +2,16 @@
   {
     "id": 1,
     "image": "/images/featured/featured-image-01.jpg",
-    "subtitle": "featured case study",
+    "subtitle": "дизайн макет",
     "title": "Логотип, айдентика и веб-дизайн фирмы",
     "description": "Компани ЮнионКонтролс занимается поставками средств автоматизации зданий и сооружений, потребовалось создать новый логотип и сайт для компании.",
     "counter": [
       {
-        "title": "ROI increase",
-        "amount": 15
+        "title": "Увеличение продаж",
+        "amount": 25
       },
       {
-        "title": "Monthly website visits",
+        "title": "Посетителей в месяц",
         "amount": 60
       }
     ],
@@ -25,12 +25,12 @@
     "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
     "counter": [
       {
-        "title": "ROI increase",
-        "amount": 15
+        "title": "Увеличение продаж",
+        "amount": 20
       },
       {
-        "title": "Monthly website visits",
-        "amount": 60
+        "title": "Посетителей в месяц",
+        "amount": 40
       }
     ],
     "buttonText": "Read Case Study"
@@ -43,12 +43,12 @@
     "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
     "counter": [
       {
-        "title": "ROI increase",
+        "title": "Увеличение продаж",
         "amount": 15
       },
       {
-        "title": "Monthly website visits",
-        "amount": 60
+        "title": "Посетителей в месяц",
+        "amount": 30
       }
     ],
     "buttonText": "Read Case Study"
