@@ -15,14 +15,14 @@ import BannerOne from '../components/banners/BannerOne';
 import SliderOne from '../components/sliders/SliderOne';
 import TeamOne from '../components/teams/TeamOne';
 import TestimonialOne from '../components/testimonials/TestimonialOne';
-import { YMInitializer } from 'react-yandex-metrika';
+
 
 const HomeOne = ({posts}) => {
     return (
         <Layout>
             <Head>
                 <title>Главная || Креативное агенство ВебКотики</title>
-				<YMInitializer accounts={[92516052]} />
+				
             </Head>
 
             <main className="page-wrapper">
