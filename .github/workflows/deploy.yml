@@ -26,5 +26,5 @@ jobs:
             npm ci
             npm run build
 
-            pm2 reload ted-portfolio || pm2 start dist/index.js --name ted-portfolio
+            pm2 reload ted-portfolio || pm2 start npm --name ted-portfolio -- start
             pm2 save
